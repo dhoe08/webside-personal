@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indonesian Tourism</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Indonesian Tourism</h1>
+        <nav>
+            <ul>
+                <li><a href="#culture">Culture</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#hotels">Hotels</a></li>
+                <li><a href="#transaction">Transaction</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="culture" class="content-section">
+        <h2>Culture in Lampung</h2>
+        <p>In Indonesia there is an area of ​​Lampung which is famous for its culture</p>
+        <img src="IndonesianTourism/images/tari lampung.jpg" alt="Indonesian Culture">
+    </section>
+        <section id="destinations" class="content-section">
+        <h2>Best Tourist Destinations in Lampung</h2>
+        <p>The best destination in Lampung is its white sand beach</p>
+        <img src="IndonesianTourism/images/pantai lampung.jpg" alt="Tourist Destination">
+    </section>
+
+    <section id="hotels" class="content-section">
+        <h2>Favorite Hotels</h2>
+        <table>
+            <tr>
+                <th>Name hotel</th>
+                <th>Facilities</th>
+                <th>Price</th>
+                <th>Address</th>
+            </tr>
+            <tr>
+                <td>Emersia Hotel & Resort Lampung</td>
+                <td>Pool, Spa, Free WiFi</td>
+                <td>$100/night</td>
+                <td>Jalan Wolter Mangunsidi 35214 Gotong Royong Lampung</td>
+            </tr>
+            <!-- More hotel entries here -->
+        </table>
+    </section>
+
+    <section id="transaction" class="content-section">
+        <h2>Book Your Trip</h2>
+        <form id="transactionForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            <label for="hotel">Hotel:</label>
+            <select id="hotel" name="hotel">
+                <option value="Hotel Indonesia">Emersia Hotel & Resort Lampung</option>
+                <!-- More hotel options here -->
+            </select><br>
+            <label for="nights">Nights:</label>
+            <input type="number" id="nights" name="nights" required><br>
+            <button type="submit">Submit</button>
+        </form>
+        <p id="transactionResult"></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<!--Ridho Esa Anugrah _ 211011450371 _ 05TPLE001-->
